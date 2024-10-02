@@ -14,8 +14,6 @@ interface WaterIntakeDao {
     @Query("UPDATE tracker SET progress = :progress WHERE date = :date")
     fun updateProgress(date: String, progress: Int)
 
-
-
     @Query("DELETE FROM tracker WHERE date = :date")
     fun deleteByDate(date: String)
 }
