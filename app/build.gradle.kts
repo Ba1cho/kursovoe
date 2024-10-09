@@ -1,8 +1,9 @@
+import org.jetbrains.kotlin.fir.expressions.FirEmptyArgumentList.arguments
 
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("kotlin-kapt")
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -16,6 +17,10 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        ksp{
+            arg("room.schemaLocation", "$projectDir/schemas")
+        }
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -78,10 +83,10 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest") // Библиотека "Room"
 
     var room_version = "2.5.1"
-
+    implementation("androidx.room:room-ktx:2.6.1")
+    ksp("androidx.room:room-compiler:2.6.1")
     implementation ("androidx.room:room-runtime:$room_version")
-    kapt("androidx.room:room-compiler:$room_version")
-    implementation("androidx.room:room-ktx:$room_version")
+
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     api("io.realm.kotlin:library-base:1.11.0")
     implementation("io.realm:realm-android-kotlin-extensions:10.11.0")
