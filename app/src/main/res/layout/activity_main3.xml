@@ -2,89 +2,86 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView25"
+        android:id="@+id/imageView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:src="@drawable/world_water_day_bro_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bottle_of_water_rafiki_1" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/imageButton11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
-        android:src="@drawable/nazad"
         android:background="@color/white"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nazad" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="425dp"
         android:fontFamily="@font/inter_bold"
         android:gravity="center"
-        android:text="Smart Reminders\nTailored to You"
+        android:text="Easy to Use – Drink, Tap,\n Repeat"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView44"
+        android:id="@+id/textView51"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
         android:fontFamily="@font/poppins"
         android:gravity="center"
-        android:text="Quick and easy to set your hydration goal &amp; \n then track your daily water intake progress."
+        android:text="Staying hydrated every day is easy with \n Drops Water Tracker."
         android:textColor="#625D5D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="570dp"
-        android:src="@drawable/dotslider"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/imageButton14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="620dp"
-        android:src="@drawable/backpng"
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backpng" />
 
     <TextView
-        android:id="@+id/textView49"
+        android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
-        android:text="NEXT"
+        android:text="GET STARTED"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton13"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton13"
-        app:layout_constraintStart_toStartOf="@+id/imageButton13"
-        app:layout_constraintTop_toTopOf="@+id/imageButton13" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton14"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton14"
+        app:layout_constraintStart_toStartOf="@+id/imageButton14"
+        app:layout_constraintTop_toTopOf="@+id/imageButton14" />
 
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dotslider3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

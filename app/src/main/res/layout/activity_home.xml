@@ -11,7 +11,10 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
         android:text="Shenaaz Mulla"
+        android:textColor="#141A1E"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -21,7 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Good Morning, "
+        android:textColor="#90A5B4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <ScrollView
@@ -61,8 +66,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="11:00 AM"
+        android:textColor="#141A1E"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView3" />
 
@@ -70,7 +78,9 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
         android:text="200ml water (2 Glass)"
+        android:textColor="#90A5B4"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -89,7 +99,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="500ml"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
@@ -105,13 +118,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/statistic" />
 
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-80dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/today" />
+
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="9:30 AM"
+        android:textColor="#90A5B4"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
         app:layout_constraintTop_toTopOf="@+id/imageView8" />
 
@@ -121,7 +147,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="100ml"
+        android:textColor="#141A1E"
         app:layout_constraintStart_toStartOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -129,9 +157,11 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="65dp"
         android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="10%"
+        android:textColor="#90A5B4"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -139,18 +169,24 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-30dp"
-        android:layout_marginEnd="70dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Target"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        android:textColor="#90A5B4"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView26"
+        app:layout_constraintTop_toTopOf="@+id/imageView26" />
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="2000 ml"
+        android:textColor="#141A1E"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/textView12"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -163,12 +199,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/popka1" />
+        app:srcCompat="@drawable/popka1"
+        />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
         android:text="Go To Dashboard"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton4"
@@ -181,7 +219,11 @@
         android:layout_width="213dp"
         android:layout_height="39dp"
         android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
         android:text="You got 50% of today’s goal, keep focus on your health!"
+        android:textColor="#90A5B4"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
@@ -257,7 +299,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-5dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/roboto_medium"
         android:text="Home"
+        android:textColor="#5DCCFC"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/imageButton5"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
 
@@ -265,8 +311,11 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="-15dp"
+        android:layout_marginStart="-13dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/roboto"
         android:text="Analysis"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/imageButton7"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
 
@@ -274,8 +323,11 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="-10dp"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/roboto"
         android:text="Setting"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/imageButton9"
         app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
 
@@ -283,8 +335,11 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="-9dp"
+        android:layout_marginStart="-7dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/roboto"
         android:text="Profile"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/imageButton10"
         app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
 

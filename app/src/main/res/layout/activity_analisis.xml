@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="For Today"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,7 +25,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Water"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="@+id/imageView7" />
 
@@ -42,9 +46,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="80dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="2.1 "
         android:textColor="#FFFFFF"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
         app:layout_constraintStart_toStartOf="@+id/imageView7" />
@@ -54,7 +60,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="liters"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
@@ -85,7 +92,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
         android:text="2628"
+        android:textColor="#5DCCFC"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
         app:layout_constraintTop_toTopOf="@+id/imageView11" />
@@ -95,7 +105,10 @@
         android:layout_width="73dp"
         android:layout_height="38dp"
         android:layout_marginBottom="30dp"
-        android:text="Steps Completed"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Steps\nCompleted"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
         app:layout_constraintStart_toStartOf="@+id/imageView11"
@@ -107,7 +120,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Walk"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
         app:layout_constraintTop_toTopOf="@+id/imageView10" />
 
@@ -137,7 +152,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Calories"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/imageView13"
         app:layout_constraintTop_toTopOf="@+id/imageView13" />
 
@@ -147,7 +164,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="510.43"
+        android:textColor="#5DCCFC"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
@@ -156,7 +176,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Kcol"
         app:layout_constraintStart_toStartOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/textView30" />
@@ -167,7 +187,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Sleep"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="@+id/imageView14" />
 
@@ -177,7 +199,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="08:00"
+        android:textColor="#5DCCFC"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="@+id/imageView14"
         app:layout_constraintTop_toBottomOf="@+id/textView32" />
 
@@ -186,7 +211,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="hours"
         app:layout_constraintStart_toStartOf="@+id/imageView14"
         app:layout_constraintTop_toBottomOf="@+id/textView33" />
@@ -207,7 +232,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="Heart"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/imageView16"
         app:layout_constraintTop_toTopOf="@+id/imageView16" />
 
@@ -245,7 +272,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="105"
+        android:textColor="#5DCCFC"
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="@+id/imageView20"
         app:layout_constraintTop_toBottomOf="@+id/imageView20" />
 
@@ -254,6 +285,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_medium"
         android:text="bpm"
         app:layout_constraintStart_toStartOf="@+id/imageView20"
         app:layout_constraintTop_toBottomOf="@+id/textView36" />
@@ -310,6 +342,7 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="296dp"
         android:layout_marginBottom="14dp"
+        android:fontFamily="@font/roboto_medium"
         android:text="Home"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
@@ -326,7 +359,9 @@
         android:layout_marginTop="43dp"
         android:layout_marginEnd="222dp"
         android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto"
         android:text="Analysis"
+        android:textColor="#5DCCFC"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
@@ -337,6 +372,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-10dp"
+        android:fontFamily="@font/roboto"
         android:text="Setting"
         app:layout_constraintStart_toStartOf="@+id/imageButton9"
         app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
@@ -346,6 +382,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-9dp"
+        android:fontFamily="@font/roboto"
         android:text="Profile"
         app:layout_constraintStart_toStartOf="@+id/imageButton10"
         app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
